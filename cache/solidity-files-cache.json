@@ -72,6 +72,42 @@
       "artifacts": [
         "Lock"
       ]
+    },
+    "/home/afivan/Documents/workings/github/dapp-hardhat/contracts/Voting.sol": {
+      "lastModificationDate": 1727172112920,
+      "contentHash": "9da896a129f3b92756271ac61535b1e9",
+      "sourceName": "contracts/Voting.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "Voting"
+      ]
     }
   }
 }
